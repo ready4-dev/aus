@@ -1,0 +1,32 @@
+url: https://ready4-dev.github.io/aus/
+
+template:
+  bootstrap: 5
+  bootswatch: journal
+
+home:
+  links:
+  - text: Manual - User (PDF)
+    href: https://github.com/ready4-dev/aus/releases/download/Documentation_0.0/aus_User.pdf
+  - text: Manual - Developer (PDF)
+    href: https://github.com/ready4-dev/aus/releases/download/Documentation_0.0/aus_Developer.pdf
+  - text: Model
+    href:  https://ready4-dev.github.io/ready4/
+development:
+  mode: auto
+reference:
+- title: "S4 Classes"
+- contents:
+  - AusLookup
+  - AusOrygen
+  - AusHeadspace
+  - AusProjections
+  - AusTasmania
+  - AusACT
+- title: "Methods"
+- contents:
+  - author-AusACT
+  - author-AusHeadspace
+  - author-AusOrygen
+  - author-AusProjections
+  - manufacture-AusLookup

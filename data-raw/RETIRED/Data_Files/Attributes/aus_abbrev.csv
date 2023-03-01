@@ -1,0 +1,26 @@
+long_name,short_name
+Australian Capital Territory,ACT
+Australia,AUS
+Commonwealth Electoral Division,CED
+Estimated Resident Population by Age and Sex,ERP_ASX
+Estimated Resident Population All Ages,ERP_TOT
+Local Government Area,LGA
+New South Wales,NSW
+Northern Territory,NT
+Primary Health Network,PHN
+Point coordinates,PNT
+Postal Area,POA
+Population Projections,PPR
+Mean Absolute Prediction Error of ABS Population Projections,PPR_MAPE
+Queensland,QLD
+South Australia,SA
+Statistical Area 1,SA1
+Statistical Area 2,SA2
+Statistical Area 3,SA3
+Statistical Area 4,SA4
+Section of State,SOS
+State Suburb,SSC
+State and Territory,STE
+Tasmania,TAS
+Victoria,VIC
+Western Australia,WA

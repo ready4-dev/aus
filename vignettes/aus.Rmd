@@ -1,0 +1,20 @@
+---
+title: "aus"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{aus}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(aus)
+```
+This development version of the aus package has been made available as part of the process of testing and documenting the package. Currently there are no vignettes available.

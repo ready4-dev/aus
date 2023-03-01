@@ -1,0 +1,2 @@
+st_context,name,country,area_type,area_bound_yr,region,data_type,main_feature,year,year_start,year_end,uid,add_boundaries,local_file_src_chr,make_script_src,download_url_chr,file_type,file_name,inc_file_main_chr,inc_fls_to_rename_ls,new_nms_for_inc_fls_ls,data_repo,data_repo_ui,data_repo_db_ui,data_repo_file_ext,data_repo_save_type
+Aus_16_31,NA,Australia,AUS,2016,National,Attribute,PPR_MAPE,2019,NA,NA,NA,NA,NA,NA,NA,.csv,env_str_param_tb,env_str_param_tb.csv,NA,NA,NA,NA,https://doi.org/10.7910/DVN/M1AGN1,.tab,original
