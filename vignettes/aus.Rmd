@@ -17,4 +17,4 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(aus)
 ```
-This development version of the aus package has been made available as part of the process of testing and documenting the package. Currently there are no vignettes available.
+This development version of the aus package has been made available as part of the process of testing and documenting the package. Currently there are no vignettes available. Currently there are no vignettes available. There is a (deprecated) app developed with prior versions of aus available at https://www.ready4-dev.com/docs/analyses/decision-aids/springtides-app/ . An example of analysis undertaken with prior versions of the aus package, along with a brief presentation explaining the model used in that analysis, is available at https://www.ready4-dev.com/blog/2021/02/18/modelling-the-mental-health-impacts-of-covid-19/

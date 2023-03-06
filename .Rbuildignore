@@ -30,3 +30,5 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^initial_setup\.R$
+^doc$
+^Meta$
