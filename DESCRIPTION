@@ -1,21 +1,21 @@
 Package: aus
-Title: Model Australian Spatial Data with Ready4
-Version: 0.0.0.9066
+Title: Model Australian Spatial Data
+Version: 0.0.0.9067
 Authors@R: c(
-    person("Matthew", "Hamilton", , "matthew.hamilton@orygen.org.au", role = c("aut", "cre"),
+    person("Matthew", "Hamilton", , "matthew.hamilton1@monash.edu", role = c("aut", "cre", "fnd"),
            comment = c(ORCID = "0000-0001-7407-9194")),
     person("Orygen", role = c("cph", "fnd")),
-    person("Headspace", role = "fnd"),
-    person("National Health and Medical Research Council", role = "fnd")
+    person("Australian Government Research Training Program", role = "fnd")
   )
-Description: Tools for modelling Australia specific geometry and spatial
-    attribute data for use with the ready4 youth mental health systems
-    model (https://ready4-dev.github.io/ready4/).  This development
-    version of the aus package has been made available as part of the
-    process of testing and documenting the package. It is currently highly
-    unstable and is not yet recommended for use.  If you have any
-    questions, please contact the authors
-    (matthew.hamilton@orygen.org.au).
+Description: Modules from the ready4 youth mental health economic model
+    (https://www.ready4-dev.com/docs/model/) that can be used to model
+    Australia specific geometry and spatial attribute data.  Designed for
+    use in models developed with the ready4 framework
+    (https://www.ready4-dev.com/).  This development version of the aus
+    package has been made available as part of the process of testing and
+    documenting the package. It is currently highly unstable and is not
+    yet recommended for use.  If you have any questions, please contact
+    the authors (matthew.hamilton1@monash.edu).
 License: GPL-3 + file LICENSE
 URL: https://ready4-dev.github.io/aus/, https://github.com/ready4-dev/aus,
     https://ready4-dev.github.io/ready4/
@@ -30,9 +30,9 @@ Imports:
     magrittr,
     methods,
     purrr,
-    ready4 (>= 0.0.0.9111),
+    ready4 (>= 0.0.0.9125),
     ready4show,
-    ready4use (>= 0.0.0.9225),
+    ready4use (>= 0.0.0.9231),
     rlang,
     sf,
     stats,
@@ -41,7 +41,7 @@ Imports:
     tibble,
     tools,
     units,
-    vicinity (>= 0.0.0.9232)
+    vicinity (>= 0.0.0.9233)
 VignetteBuilder: knitr
 Suggests: 
     rmarkdown
