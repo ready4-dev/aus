@@ -31,7 +31,7 @@ Imports:
     methods,
     purrr,
     ready4 (>= 0.0.0.9125),
-    ready4show,
+    ready4show (>= 0.0.0.9111),
     ready4use (>= 0.0.0.9231),
     rlang,
     sf,
@@ -45,7 +45,8 @@ Imports:
 VignetteBuilder: knitr
 Suggests: 
     rmarkdown
-Remotes: 
+Remotes:  
     ready4-dev/ready4,
     ready4-dev/ready4use,
-    ready4-dev/vicinity
+    ready4-dev/vicinity,
+    ready4-dev/ready4show

@@ -4,15 +4,15 @@
 \name{aus-package}
 \alias{aus}
 \alias{aus-package}
-\title{aus: Model Australian Spatial Data with Ready4}
+\title{aus: Model Australian Spatial Data}
 \description{
 \if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
-Tools for modelling Australia specific geometry and spatial attribute data for use with the ready4 youth mental health systems model (https://ready4-dev.github.io/ready4/). This development version of the aus package has been made available as part of the process of testing and documenting the package. It is currently highly unstable and is not yet recommended for use. If you have any questions, please contact the authors (matthew.hamilton@orygen.org.au).
+Modules from the ready4 youth mental health economic model (https://www.ready4-dev.com/docs/model/) that can be used to model Australia specific geometry and spatial attribute data. Designed for use in models developed with the ready4 framework (https://www.ready4-dev.com/). This development version of the aus package has been made available as part of the process of testing and documenting the package. It is currently highly unstable and is not yet recommended for use. If you have any questions, please contact the authors (matthew.hamilton1@monash.edu).
 
 \if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
-Tools for modelling Australia specific geometry and spatial attribute data for use with the ready4 youth mental health systems model (https://ready4-dev.github.io/ready4/). This development version of the aus package has been made available as part of the process of testing and documenting the package. It is currently highly unstable and is not yet recommended for use. If you have any questions, please contact the authors (matthew.hamilton@orygen.org.au).
+Modules from the ready4 youth mental health economic model (https://www.ready4-dev.com/docs/model/) that can be used to model Australia specific geometry and spatial attribute data. Designed for use in models developed with the ready4 framework (https://www.ready4-dev.com/). This development version of the aus package has been made available as part of the process of testing and documenting the package. It is currently highly unstable and is not yet recommended for use. If you have any questions, please contact the authors (matthew.hamilton1@monash.edu).
 }
 \seealso{
 Useful links:
@@ -32,13 +32,12 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: Matthew Hamilton \email{matthew.hamilton@orygen.org.au} (\href{https://orcid.org/0000-0001-7407-9194}{ORCID})
+\strong{Maintainer}: Matthew Hamilton \email{matthew.hamilton1@monash.edu} (\href{https://orcid.org/0000-0001-7407-9194}{ORCID}) [funder]
 
 Other contributors:
 \itemize{
   \item Orygen [copyright holder, funder]
-  \item Headspace [funder]
-  \item National Health and Medical Research Council [funder]
+  \item Australian Government Research Training Program [funder]
 }
 
 }

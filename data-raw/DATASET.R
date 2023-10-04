@@ -1,5 +1,6 @@
-library(ready4fun)
+library(ready4)
 library(ready4use)
+library(ready4show)
 # library(ready4show)
 # library(youthvars)
 # library(scorz)
@@ -11,15 +12,15 @@ ready4fun::write_fn_type_dirs()
 # MANUAL STEP. Write all your functions to R files in the new "fns" directory.
 fns_env_ls <- ready4fun::read_fns(c("data-raw/fns/","data-raw/mthds/"),
                                   fns_env = new.env(parent = globalenv()))
-x <- ready4fun::make_pkg_desc_ls(pkg_title_1L_chr = "Model Australian Spatial Data With Ready4",
-                                 pkg_desc_1L_chr = "Tools for modelling Australia specific geometry and spatial attribute data for use with the ready4 youth mental health systems model (https://ready4-dev.github.io/ready4/).
+x <- ready4fun::make_pkg_desc_ls(pkg_title_1L_chr = "Model Australian Spatial Data" %>% tools::toTitleCase(),
+                                 pkg_desc_1L_chr = "Modules from the ready4 youth mental health economic model (https://www.ready4-dev.com/docs/model/) that can be used to model Australia specific geometry and spatial attribute data.
+                            Designed for use in models developed with the ready4 framework (https://www.ready4-dev.com/).
                             This development version of the aus package has been made available as part of the process of testing and documenting the package. It is currently highly unstable and is not yet recommended for use.
-                            If you have any questions, please contact the authors (matthew.hamilton@orygen.org.au).",
+                            If you have any questions, please contact the authors (matthew.hamilton1@monash.edu).",
                                  authors_prsn = c(#utils::person(given = "Caroline",family = "Gao",email = "caroline.gao@orygen.org.au", role = c("aut"),comment = c(ORCID = "0000-0002-0987-2759")),
-                                   utils::person(given = "Matthew",family = "Hamilton",email = "matthew.hamilton@orygen.org.au", role = c("aut", "cre"),comment = c(ORCID = "0000-0001-7407-9194")),
+                                   utils::person(given = "Matthew",family = "Hamilton",email = "matthew.hamilton1@monash.edu", role = c("aut", "cre", "fnd"), comment = c(ORCID = "0000-0001-7407-9194")),
                                    utils::person("Orygen", role = c("cph", "fnd")),
-                                   utils::person("Headspace", role = c( "fnd")),
-                                   utils::person("National Health and Medical Research Council", role = c( "fnd"))),
+                                   utils::person("Australian Government Research Training Program", role =c("fnd"))),
                                  urls_chr = c("https://ready4-dev.github.io/aus/",
                                               "https://github.com/ready4-dev/aus",
                                               "https://ready4-dev.github.io/ready4/")) %>%
@@ -30,7 +31,7 @@ x <- ready4fun::make_pkg_desc_ls(pkg_title_1L_chr = "Model Australian Spatial Da
   check_type_1L_chr = "ready4",
   copyright_holders_chr = "Orygen",
   custom_dmt_ls = ready4fun::make_custom_dmt_ls(),##
-  dev_pkgs_chr = c("ready4","ready4use","vicinity"),
+  dev_pkgs_chr = c("ready4","ready4show","ready4use","vicinity"),
   lifecycle_stage_1L_chr = "experimental",
   path_to_pkg_logo_1L_chr = "../../../../../Documentation/Images/aus-logo/default.png",# UPDATE
   piggyback_to_1L_chr = "ready4-dev/ready4",
@@ -129,7 +130,7 @@ ready4::write_citation_cff(packageDescription("aus"),
 # usethis::use_dev_package("youthvars",
 #                          type = "Imports",#D?
 #                          remote = "ready4-dev/youthvars")
-# usethis::use_dev_package("scorz",
-#                          type = "Imports",
-#                          remote = "ready4-dev/scorz")
+usethis::use_dev_package("ready4show",
+                         type = "Imports",
+                         remote = "ready4-dev/ready4show")
 devtools::build_vignettes()
