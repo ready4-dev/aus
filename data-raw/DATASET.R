@@ -124,13 +124,17 @@ z <- ready4pack::make_pt_ready4pack_manifest(x,
   ready4pack::ready4pack_manifest()
 z <- ready4::author(z)
 #usethis::use_package("sf")
-ready4::write_extra_pkgs_to_actions()
-ready4::write_citation_cff(packageDescription("aus"),
-                           citation_chr = readLines("inst/CITATION"))
+# ready4::write_citation_cff(packageDescription("aus"),
+#                            citation_chr = readLines("inst/CITATION"))
 # usethis::use_dev_package("youthvars",
 #                          type = "Imports",#D?
 #                          remote = "ready4-dev/youthvars")
 usethis::use_dev_package("ready4show",
                          type = "Imports",
                          remote = "ready4-dev/ready4show")
+write_extra_pkgs_to_actions(consent_1L_chr = "Y")
+write_to_edit_workflow("pkgdown.yaml", consent_1L_chr = "Y") # In other packages, run for "test-coverage.yaml" as well.
+readLines("_pkgdown.yml") %>%
+  stringr::str_replace_all("  - text: Model", "  - text: Framework & Model") %>%
+  writeLines(con = "_pkgdown.yml")
 devtools::build_vignettes()
